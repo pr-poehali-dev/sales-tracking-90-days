@@ -75,7 +75,7 @@ const Index = () => {
             <Button 
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-7 text-lg font-bold shadow-lg hover:shadow-xl transition-all"
-              onClick={scrollToContact}
+              onClick={() => window.open('https://t.me/m/Ax9hlnZWM2Zi', '_blank')}
             >
               Хочу на трекинг
             </Button>
@@ -83,7 +83,7 @@ const Index = () => {
               size="lg" 
               variant="outline"
               className="border-2 border-primary text-primary hover:bg-primary/10 px-10 py-7 text-lg font-bold"
-              onClick={() => document.getElementById('format')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => window.open('https://t.me/m/9UrM7yc3NTRi', '_blank')}
             >
               Узнать подробности
             </Button>
@@ -212,7 +212,7 @@ const Index = () => {
             <Button 
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-7 text-lg font-bold shadow-lg hover:shadow-xl transition-all"
-              onClick={scrollToContact}
+              onClick={() => window.open('https://t.me/m/Ax9hlnZWM2Zi', '_blank')}
             >
               Хочу на трекинг
             </Button>
@@ -220,7 +220,7 @@ const Index = () => {
               size="lg" 
               variant="outline"
               className="border-2 border-primary text-primary hover:bg-primary/10 px-10 py-7 text-lg font-bold"
-              onClick={() => document.getElementById('format')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => window.open('https://t.me/m/9UrM7yc3NTRi', '_blank')}
             >
               Узнать подробности
             </Button>
@@ -308,7 +308,7 @@ const Index = () => {
             <Button 
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-7 text-lg font-bold shadow-lg hover:shadow-xl transition-all"
-              onClick={scrollToContact}
+              onClick={() => window.open('https://t.me/m/Ax9hlnZWM2Zi', '_blank')}
             >
               Хочу на трекинг
             </Button>
@@ -316,7 +316,7 @@ const Index = () => {
               size="lg" 
               variant="outline"
               className="border-2 border-primary text-primary hover:bg-primary/10 px-10 py-7 text-lg font-bold"
-              onClick={() => document.getElementById('format')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => window.open('https://t.me/m/9UrM7yc3NTRi', '_blank')}
             >
               Узнать подробности
             </Button>
@@ -362,7 +362,7 @@ const Index = () => {
             <Button 
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-7 text-lg font-bold shadow-lg hover:shadow-xl transition-all"
-              onClick={scrollToContact}
+              onClick={() => window.open('https://t.me/m/Ax9hlnZWM2Zi', '_blank')}
             >
               Хочу на трекинг
             </Button>
@@ -370,7 +370,7 @@ const Index = () => {
               size="lg" 
               variant="outline"
               className="border-2 border-primary text-primary hover:bg-primary/10 px-10 py-7 text-lg font-bold"
-              onClick={() => document.getElementById('format')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => window.open('https://t.me/m/9UrM7yc3NTRi', '_blank')}
             >
               Узнать подробности
             </Button>
@@ -472,7 +472,7 @@ const Index = () => {
             <Button 
               size="lg"
               className="bg-[#F5C83A] hover:bg-[#F5C83A]/90 text-black px-12 py-7 text-xl font-bold shadow-xl hover:shadow-2xl transition-all"
-              onClick={() => window.open('https://t.me/', '_blank')}
+              onClick={() => window.open('https://t.me/m/Ax9hlnZWM2Zi', '_blank')}
             >
               Хочу на трекинг
             </Button>
@@ -480,7 +480,7 @@ const Index = () => {
             <Button 
               size="lg"
               className="bg-[#F5C83A] hover:bg-[#F5C83A]/90 text-black px-12 py-7 text-xl font-bold shadow-xl hover:shadow-2xl transition-all"
-              onClick={() => window.open('https://t.me/', '_blank')}
+              onClick={() => window.open('https://t.me/m/xinPDaoNNDYy', '_blank')}
             >
               Тест-драйв
             </Button>
@@ -488,7 +488,7 @@ const Index = () => {
             <Button 
               size="lg"
               className="bg-[#F5C83A] hover:bg-[#F5C83A]/90 text-black px-12 py-7 text-xl font-bold shadow-xl hover:shadow-2xl transition-all"
-              onClick={() => window.open('https://t.me/', '_blank')}
+              onClick={() => window.open('https://t.me/m/KOA-jbpiMDVi', '_blank')}
             >
               Бронь места
             </Button>
