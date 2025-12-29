@@ -54,9 +54,14 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white">
-      <section className="relative min-h-screen flex items-center justify-center px-4 py-12 overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center px-4 py-8 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-secondary/5 to-transparent"></div>
-        <div className="relative max-w-6xl mx-auto text-center space-y-10 animate-fade-in">
+        <div className="relative max-w-6xl mx-auto text-center space-y-6 animate-fade-in">
+          <div className="mb-4">
+            <div className="inline-block border-4 border-[#F5C83A] bg-gradient-to-r from-[#F5C83A]/20 to-[#F5C83A]/30 rounded-2xl px-6 py-2 shadow-lg animate-pulse">
+              <p className="text-xl md:text-2xl font-bold text-[#9A1E15]">🎁 Эксклюзивное предложение!</p>
+            </div>
+          </div>
           <div className="space-y-6">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
               <span className="text-[#9A1E15]">90-дневный трекинг продаж</span><br />
@@ -71,25 +76,27 @@ const Index = () => {
             </p>
           </div>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Button 
               size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-7 text-lg font-bold shadow-lg hover:shadow-xl transition-all"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-7 text-lg font-bold shadow-lg hover:shadow-xl transition-all animate-pulse flex items-center gap-2"
               onClick={() => window.open('https://t.me/m/Ax9hlnZWM2Zi', '_blank')}
             >
+              <Icon name="Hand" size={24} />
               Хочу на трекинг
             </Button>
             <Button 
               size="lg" 
               variant="outline"
-              className="border-2 border-primary text-primary hover:bg-primary/10 px-10 py-7 text-lg font-bold"
+              className="border-2 border-primary text-primary hover:bg-primary/10 px-10 py-7 text-lg font-bold animate-pulse flex items-center gap-2"
               onClick={() => window.open('https://t.me/m/9UrM7yc3NTRi', '_blank')}
             >
+              <Icon name="Hand" size={24} />
               Узнать подробности
             </Button>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-12 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6 max-w-5xl mx-auto">
             <Card className="border-2 border-primary/20 shadow-lg hover:shadow-xl transition-all bg-white/80 backdrop-blur">
               <CardContent className="pt-6 text-center space-y-2">
                 <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -120,8 +127,8 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-12 px-4 bg-white">
-        <div className="max-w-6xl mx-auto space-y-12">
+      <section className="py-8 px-4 bg-white">
+        <div className="max-w-6xl mx-auto space-y-8">
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
               Что мы делаем на <span className="text-primary">трекинге</span>
@@ -228,8 +235,8 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-12 px-4 bg-gradient-to-br from-gray-50 to-white">
-        <div className="max-w-5xl mx-auto space-y-12">
+      <section className="py-8 px-4 bg-gradient-to-br from-gray-50 to-white">
+        <div className="max-w-5xl mx-auto space-y-8">
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
               С какими запросами приходят на <span className="text-primary">трекинг</span>
@@ -263,8 +270,8 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="format" className="py-20 px-4 bg-white">
-        <div className="max-w-6xl mx-auto space-y-12">
+      <section id="format" className="py-8 px-4 bg-white">
+        <div className="max-w-6xl mx-auto space-y-8">
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
               Как проходит <span className="text-primary">работа</span>
@@ -324,8 +331,8 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-12 px-4 bg-gradient-to-br from-gray-50 to-white">
-        <div className="max-w-6xl mx-auto space-y-12">
+      <section className="py-8 px-4 bg-gradient-to-br from-gray-50 to-white">
+        <div className="max-w-6xl mx-auto space-y-8">
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
               Что вы получаете за <span className="text-primary">90 дней</span>
@@ -356,29 +363,31 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-12 px-4 bg-gradient-to-br from-gray-50 to-white">
+      <section className="py-4 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-7 text-lg font-bold shadow-lg hover:shadow-xl transition-all"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-7 text-lg font-bold shadow-lg hover:shadow-xl transition-all animate-pulse flex items-center gap-2"
               onClick={() => window.open('https://t.me/m/Ax9hlnZWM2Zi', '_blank')}
             >
+              <Icon name="Hand" size={24} />
               Хочу на трекинг
             </Button>
             <Button 
               size="lg" 
               variant="outline"
-              className="border-2 border-primary text-primary hover:bg-primary/10 px-10 py-7 text-lg font-bold"
+              className="border-2 border-primary text-primary hover:bg-primary/10 px-10 py-7 text-lg font-bold animate-pulse flex items-center gap-2"
               onClick={() => window.open('https://t.me/m/9UrM7yc3NTRi', '_blank')}
             >
+              <Icon name="Hand" size={24} />
               Узнать подробности
             </Button>
           </div>
         </div>
       </section>
 
-      <section className="py-12 px-4 bg-white">
+      <section className="py-8 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
@@ -404,8 +413,8 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="cases" className="py-12 px-4 bg-gradient-to-br from-gray-50 to-white">
-        <div className="max-w-7xl mx-auto space-y-12">
+      <section id="cases" className="py-8 px-4 bg-gradient-to-br from-gray-50 to-white">
+        <div className="max-w-7xl mx-auto space-y-8">
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
               Реальные <span className="text-primary">результаты</span> клиентов
@@ -431,8 +440,29 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-12 px-4 bg-gradient-to-br from-[#F5C83A]/10 to-white">
-        <div className="max-w-4xl mx-auto">
+      <section className="py-8 px-4 bg-gradient-to-br from-[#9A1E15]/10 to-white">
+        <div className="max-w-4xl mx-auto space-y-8">
+          <Card className="border-4 border-[#9A1E15] shadow-2xl bg-gradient-to-br from-[#F5C83A]/20 to-white">
+            <CardContent className="pt-8 space-y-6 text-center">
+              <div className="space-y-4">
+                <p className="text-3xl md:text-4xl font-bold text-[#9A1E15]">
+                  🔥 Осталось 2 места
+                </p>
+                <div className="inline-block bg-white rounded-xl px-8 py-4 shadow-lg">
+                  <p className="text-2xl md:text-3xl font-bold text-[#9A1E15]">
+                    СТОИМОСТЬ 49.900 ₽
+                  </p>
+                  <p className="text-xl text-gray-500 line-through mt-2">
+                    вместо 69.900 ₽
+                  </p>
+                </div>
+                <p className="text-xl md:text-2xl font-bold text-[#9A1E15] animate-pulse">
+                  ✨ Уникальное новогоднее предложение!
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+
           <div className="text-center mb-6">
             <div className="inline-block border-4 border-[#F5C83A] bg-white rounded-2xl px-8 py-3 shadow-xl">
               <p className="text-2xl md:text-3xl font-bold text-[#9A1E15]">Специальное предложение!</p>
@@ -441,7 +471,7 @@ const Index = () => {
           
           <Card className="border-4 border-[#F5C83A] shadow-2xl bg-white">
             <CardContent className="pt-8 space-y-6">
-              <h2 className="text-4xl md:text-5xl font-bold text-[#9A1E15] text-center">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#9A1E15] text-center">
                 ТЕСТ-ДРАЙВ ТРЕКИНГА
               </h2>
               
@@ -455,7 +485,7 @@ const Index = () => {
                   <li>— убрать лишнее и сфокусироваться на шагах, которые быстрее всего приводят к заявкам и деньгам именно в вашем проекте.</li>
                 </ul>
                 
-                <p>
+                <p className="font-bold">
                   Вы получаете полноценное сопровождение на 21 день, мою обратную связь и понимание, как выстраивается система продаж под ваши цели и текущие реалии.
                 </p>
                 
@@ -471,9 +501,10 @@ const Index = () => {
               <div className="flex justify-center pt-6">
                 <Button 
                   size="lg" 
-                  className="bg-[#F5C83A] hover:bg-[#F5C83A]/90 text-black px-12 py-7 text-xl font-bold shadow-lg hover:shadow-xl transition-all"
+                  className="bg-[#F5C83A] hover:bg-[#F5C83A]/90 text-black px-12 py-7 text-xl font-bold shadow-lg hover:shadow-xl transition-all animate-pulse flex items-center gap-2"
                   onClick={() => window.open('https://t.me/m/xinPDaoNNDYy', '_blank')}
                 >
+                  <Icon name="Hand" size={24} />
                   Хочу тест-драйв
                 </Button>
               </div>
@@ -482,8 +513,8 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-12 px-4 bg-white">
-        <div className="max-w-5xl mx-auto space-y-12">
+      <section className="py-8 px-4 bg-white">
+        <div className="max-w-5xl mx-auto space-y-8">
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
               Почему важно <span className="text-primary">не откладывать</span>
@@ -499,17 +530,13 @@ const Index = () => {
                 Сейчас ещё можно спокойно протестировать модели, собрать продукт и выстроить систему 
                 без давления и гонки.
               </p>
-              <p className="text-lg text-foreground leading-relaxed max-w-3xl mx-auto font-semibold">
-                Количество мест ограничено, формат камерный — именно поэтому участники получают 
-                персональное внимание и результат, а не «массовое обучение».
-              </p>
             </CardContent>
           </Card>
         </div>
       </section>
 
-      <section id="contact" className="py-12 px-4 bg-gradient-to-br from-primary via-primary to-primary/90">
-        <div className="max-w-5xl mx-auto text-center space-y-10">
+      <section id="contact" className="py-8 px-4 bg-gradient-to-br from-primary via-primary to-primary/90">
+        <div className="max-w-5xl mx-auto text-center space-y-8">
           <div className="space-y-6">
             <h2 className="text-4xl md:text-5xl font-bold text-white">
               Начните 2026 год с продаж!
@@ -522,25 +549,28 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row gap-5 justify-center items-center pt-4">
             <Button 
               size="lg"
-              className="bg-[#F5C83A] hover:bg-[#F5C83A]/90 text-black px-12 py-7 text-xl font-bold shadow-xl hover:shadow-2xl transition-all"
+              className="bg-[#F5C83A] hover:bg-[#F5C83A]/90 text-black px-12 py-7 text-xl font-bold shadow-xl hover:shadow-2xl transition-all animate-pulse flex items-center gap-2"
               onClick={() => window.open('https://t.me/m/Ax9hlnZWM2Zi', '_blank')}
             >
+              <Icon name="Hand" size={24} />
               Хочу на трекинг
             </Button>
             
             <Button 
               size="lg"
-              className="bg-[#F5C83A] hover:bg-[#F5C83A]/90 text-black px-12 py-7 text-xl font-bold shadow-xl hover:shadow-2xl transition-all"
+              className="bg-[#F5C83A] hover:bg-[#F5C83A]/90 text-black px-12 py-7 text-xl font-bold shadow-xl hover:shadow-2xl transition-all animate-pulse flex items-center gap-2"
               onClick={() => window.open('https://t.me/m/xinPDaoNNDYy', '_blank')}
             >
+              <Icon name="Hand" size={24} />
               Тест-драйв
             </Button>
             
             <Button 
               size="lg"
-              className="bg-[#F5C83A] hover:bg-[#F5C83A]/90 text-black px-12 py-7 text-xl font-bold shadow-xl hover:shadow-2xl transition-all"
+              className="bg-[#F5C83A] hover:bg-[#F5C83A]/90 text-black px-12 py-7 text-xl font-bold shadow-xl hover:shadow-2xl transition-all animate-pulse flex items-center gap-2"
               onClick={() => window.open('https://t.me/m/KOA-jbpiMDVi', '_blank')}
             >
+              <Icon name="Hand" size={24} />
               Бронь места
             </Button>
           </div>
