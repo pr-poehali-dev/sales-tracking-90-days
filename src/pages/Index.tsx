@@ -54,7 +54,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white">
-      <section className="relative min-h-screen flex items-center justify-center px-4 py-20 overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center px-4 py-12 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-secondary/5 to-transparent"></div>
         <div className="relative max-w-6xl mx-auto text-center space-y-10 animate-fade-in">
           <div className="space-y-6">
@@ -62,12 +62,12 @@ const Index = () => {
               <span className="text-[#9A1E15]">90-дневный трекинг продаж</span><br />
               для экспертов и предпринимателей
             </h1>
-            <p className="text-xl md:text-2xl text-foreground max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-black max-w-4xl mx-auto leading-relaxed font-medium">
               Совместная работа над вашим проектом, где мы пересобираем или запускаем продажи под реалии 2026 года 
-              и доводим конкретные действия до заявок и денег.
+              и доводим 1-2 целевых действия до заявок и денег.
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto font-semibold">
-              Чёткая стратегия, фокус на 1–2 ключевых действиях и регулярные разборы вашего проекта.
+            <p className="text-lg md:text-xl text-[#9A1E15] max-w-3xl mx-auto font-bold">
+              Старт программы 12 января. Осталось 2 свободных места.
             </p>
           </div>
           
@@ -120,7 +120,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-white">
+      <section className="py-12 px-4 bg-white">
         <div className="max-w-6xl mx-auto space-y-12">
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
@@ -206,7 +206,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-12 px-4 bg-white">
+      <section className="py-6 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
@@ -228,7 +228,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
+      <section className="py-12 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-5xl mx-auto space-y-12">
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
@@ -302,7 +302,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-12 px-4 bg-white">
+      <section className="py-6 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
@@ -324,11 +324,11 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
+      <section className="py-12 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-6xl mx-auto space-y-12">
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-              С чем вы выходите через <span className="text-primary">90 дней</span>
+              Что вы получаете за <span className="text-primary">90 дней</span>
             </h2>
           </div>
 
@@ -378,12 +378,12 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-white">
+      <section className="py-12 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
               <img 
-                src="https://cdn.poehali.dev/files/белый пиджак.jpg" 
+                src="https://cdn.poehali.dev/files/telegram-cloud-photo-size-4-5874222278663408774-y 2.png" 
                 alt="Светлана Скорнякова"
                 className="w-full h-auto rounded-2xl shadow-xl"
               />
@@ -404,7 +404,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="cases" className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
+      <section id="cases" className="py-12 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-7xl mx-auto space-y-12">
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
@@ -431,7 +431,58 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-white">
+      <section className="py-12 px-4 bg-gradient-to-br from-[#F5C83A]/10 to-white">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-6">
+            <div className="inline-block border-4 border-[#F5C83A] bg-white rounded-2xl px-8 py-3 shadow-xl">
+              <p className="text-2xl md:text-3xl font-bold text-[#9A1E15]">Специальное предложение!</p>
+            </div>
+          </div>
+          
+          <Card className="border-4 border-[#F5C83A] shadow-2xl bg-white">
+            <CardContent className="pt-8 space-y-6">
+              <h2 className="text-4xl md:text-5xl font-bold text-[#9A1E15] text-center">
+                ТЕСТ-ДРАЙВ ТРЕКИНГА
+              </h2>
+              
+              <div className="space-y-4 text-lg text-foreground leading-relaxed">
+                <p>
+                  В течение 21 дня мы работаем с вашим проектом:
+                </p>
+                <ul className="space-y-2 ml-6">
+                  <li>— я помогаю разобрать текущую ситуацию в продажах,</li>
+                  <li>— определить ключевые действия,</li>
+                  <li>— убрать лишнее и сфокусироваться на шагах, которые быстрее всего приводят к заявкам и деньгам именно в вашем проекте.</li>
+                </ul>
+                
+                <p>
+                  Вы получаете полноценное сопровождение на 21 день, мою обратную связь и понимание, как выстраивается система продаж под ваши цели и текущие реалии.
+                </p>
+                
+                <p>
+                  Это позволяет без лишних рисков понять, подходит ли вам формат трекинга и готовы ли вы идти дальше в основную программу.
+                </p>
+                
+                <p className="text-2xl font-bold text-[#9A1E15] text-center pt-4">
+                  Стоимость ТЕСТ-ДРАЙВА 10.000 руб.
+                </p>
+              </div>
+              
+              <div className="flex justify-center pt-6">
+                <Button 
+                  size="lg" 
+                  className="bg-[#F5C83A] hover:bg-[#F5C83A]/90 text-black px-12 py-7 text-xl font-bold shadow-lg hover:shadow-xl transition-all"
+                  onClick={() => window.open('https://t.me/m/xinPDaoNNDYy', '_blank')}
+                >
+                  Хочу тест-драйв
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
+      <section className="py-12 px-4 bg-white">
         <div className="max-w-5xl mx-auto space-y-12">
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
@@ -457,11 +508,11 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="contact" className="py-20 px-4 bg-gradient-to-br from-primary via-primary to-primary/90">
+      <section id="contact" className="py-12 px-4 bg-gradient-to-br from-primary via-primary to-primary/90">
         <div className="max-w-5xl mx-auto text-center space-y-10">
           <div className="space-y-6">
             <h2 className="text-4xl md:text-5xl font-bold text-white">
-              Начните 2026 год с собранных продаж
+              Начните 2026 год с продаж!
             </h2>
             <p className="text-xl md:text-2xl text-white/95 max-w-3xl mx-auto leading-relaxed">
               Перестаньте действовать наугад и соберите систему, которая будет работать на вас весь год.
