@@ -38,6 +38,13 @@ const Index = () => {
       name: "Ольга Мар",
       role: "Специалист по трафику",
       result: "+185.000 руб."
+    },
+    {
+      id: 6,
+      image: "https://cdn.poehali.dev/files/Zulfiya-Nastavnik-mentor-dlya-ekspertov.png",
+      name: "Зульфия",
+      role: "Наставник, ментор для экспертов",
+      result: "858.000 руб. за 2 месяца"
     }
   ];
 
@@ -199,6 +206,28 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-12 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Button 
+              size="lg" 
+              className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-7 text-lg font-bold shadow-lg hover:shadow-xl transition-all"
+              onClick={scrollToContact}
+            >
+              Хочу на трекинг
+            </Button>
+            <Button 
+              size="lg" 
+              variant="outline"
+              className="border-2 border-primary text-primary hover:bg-primary/10 px-10 py-7 text-lg font-bold"
+              onClick={() => document.getElementById('format')?.scrollIntoView({ behavior: 'smooth' })}
+            >
+              Узнать подробности
+            </Button>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-5xl mx-auto space-y-12">
           <div className="text-center space-y-4">
@@ -273,6 +302,28 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-12 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Button 
+              size="lg" 
+              className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-7 text-lg font-bold shadow-lg hover:shadow-xl transition-all"
+              onClick={scrollToContact}
+            >
+              Хочу на трекинг
+            </Button>
+            <Button 
+              size="lg" 
+              variant="outline"
+              className="border-2 border-primary text-primary hover:bg-primary/10 px-10 py-7 text-lg font-bold"
+              onClick={() => document.getElementById('format')?.scrollIntoView({ behavior: 'smooth' })}
+            >
+              Узнать подробности
+            </Button>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-6xl mx-auto space-y-12">
           <div className="text-center space-y-4">
@@ -305,18 +356,49 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-12 px-4 bg-gradient-to-br from-gray-50 to-white">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Button 
+              size="lg" 
+              className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-7 text-lg font-bold shadow-lg hover:shadow-xl transition-all"
+              onClick={scrollToContact}
+            >
+              Хочу на трекинг
+            </Button>
+            <Button 
+              size="lg" 
+              variant="outline"
+              className="border-2 border-primary text-primary hover:bg-primary/10 px-10 py-7 text-lg font-bold"
+              onClick={() => document.getElementById('format')?.scrollIntoView({ behavior: 'smooth' })}
+            >
+              Узнать подробности
+            </Button>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 px-4 bg-white">
-        <div className="max-w-5xl mx-auto space-y-12">
-          <div className="text-center space-y-6">
-            <h2 className="text-4xl md:text-5xl font-bold text-primary">
-              Светлана Скорнякова
-            </h2>
-            <div className="max-w-3xl mx-auto space-y-4 text-lg text-foreground leading-relaxed">
-              <p>— более 100 экспертов вышли на доход 300.000 ₽+</p>
-              <p>— средний рост дохода за 90 дней — x2–x4</p>
-              <p>— заработала 15+ млн ₽ в Telegram за 2 года</p>
-              <p>— инвестировала в своё развитие более 2 млн ₽</p>
-              <p>— работаю с мягкими и твёрдыми нишами: психологи, коучи, наставники, эксперты услуг</p>
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div className="order-2 md:order-1">
+              <img 
+                src="https://cdn.poehali.dev/files/белый пиджак.jpg" 
+                alt="Светлана Скорнякова"
+                className="w-full h-auto rounded-2xl shadow-xl"
+              />
+            </div>
+            <div className="order-1 md:order-2 space-y-6">
+              <h2 className="text-4xl md:text-5xl font-bold text-primary text-left">
+                Светлана Скорнякова
+              </h2>
+              <div className="space-y-4 text-lg text-foreground leading-relaxed text-left">
+                <p>— более 100 экспертов вышли на доход 300.000 ₽+</p>
+                <p>— средний рост дохода за 90 дней — x2–x4</p>
+                <p>— заработала 15+ млн ₽ в Telegram за 2 года</p>
+                <p>— инвестировала в своё развитие более 2 млн ₽</p>
+                <p>— работаю с мягкими и твёрдыми нишами: психологи, коучи, наставники, эксперты услуг</p>
+              </div>
             </div>
           </div>
         </div>
