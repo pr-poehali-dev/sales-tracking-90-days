@@ -51,8 +51,8 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-secondary/5 to-transparent"></div>
         <div className="relative max-w-6xl mx-auto text-center space-y-10 animate-fade-in">
           <div className="space-y-6">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
-              90-дневный трекинг продаж<br />
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
+              <span className="text-[#9A1E15]">90-дневный трекинг продаж</span><br />
               для экспертов и предпринимателей
             </h1>
             <p className="text-xl md:text-2xl text-foreground max-w-4xl mx-auto leading-relaxed">
@@ -60,7 +60,6 @@ const Index = () => {
               и доводим конкретные действия до заявок и денег.
             </p>
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto font-semibold">
-              Не обучение и не мотивация.<br />
               Чёткая стратегия, фокус на 1–2 ключевых действиях и регулярные разборы вашего проекта.
             </p>
           </div>
@@ -118,7 +117,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto space-y-12">
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-              Что мы делаем в <span className="text-primary">трекинге</span>
+              Что мы делаем на <span className="text-primary">трекинге</span>
             </h2>
           </div>
 
@@ -192,7 +191,7 @@ const Index = () => {
                 </div>
                 <h3 className="text-2xl font-bold">Персональный трек</h3>
                 <p className="text-muted-foreground">
-                  Вы не «один из». Стратегия, решения и фокус под ваш опыт, нишу и цели.
+                  Стратегия, решения и фокус под ваш опыт, нишу и цели.
                 </p>
               </CardContent>
             </Card>
@@ -204,7 +203,7 @@ const Index = () => {
         <div className="max-w-5xl mx-auto space-y-12">
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-              С какими запросами приходят в <span className="text-primary">трекинг</span>
+              С какими запросами приходят на <span className="text-primary">трекинг</span>
             </h2>
           </div>
 
@@ -312,20 +311,12 @@ const Index = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-primary">
               Светлана Скорнякова
             </h2>
-            <div className="max-w-3xl mx-auto space-y-6 text-lg text-foreground leading-relaxed">
-              <p>
-                Я 20 лет в продажах, из них более 10 лет — в онлайн-маркетинге и сопровождении экспертов и предпринимателей.
-              </p>
-              <p>
-                Работаю с проектами в разных нишах и на разных этапах — от старта до масштабирования.
-              </p>
-              <p>
-                Мой фокус — не «знания ради знаний», а конкретные действия, которые приводят к заявкам, клиентам и деньгам.
-              </p>
-              <p className="font-semibold">
-                Именно поэтому формат трекинга — это совместная работа, где продажи перестают быть хаотичными 
-                и становятся управляемыми.
-              </p>
+            <div className="max-w-3xl mx-auto space-y-4 text-lg text-foreground leading-relaxed">
+              <p>— более 100 экспертов вышли на доход 300.000 ₽+</p>
+              <p>— средний рост дохода за 90 дней — x2–x4</p>
+              <p>— заработала 15+ млн ₽ в Telegram за 2 года</p>
+              <p>— инвестировала в своё развитие более 2 млн ₽</p>
+              <p>— работаю с мягкими и твёрдыми нишами: психологи, коучи, наставники, эксперты услуг</p>
             </div>
           </div>
         </div>
@@ -337,12 +328,9 @@ const Index = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
               Реальные <span className="text-primary">результаты</span> клиентов
             </h2>
-            <p className="text-xl text-muted-foreground">
-              Кейсы наших клиентов, которые вышли на стабильный доход
-            </p>
           </div>
 
-          <div className="space-y-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {cases.map((caseItem, index) => (
               <div 
                 key={caseItem.id}
@@ -401,7 +389,7 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row gap-5 justify-center items-center pt-4">
             <Button 
               size="lg"
-              className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-12 py-7 text-xl font-bold shadow-xl hover:shadow-2xl transition-all"
+              className="bg-[#F5C83A] hover:bg-[#F5C83A]/90 text-black px-12 py-7 text-xl font-bold shadow-xl hover:shadow-2xl transition-all"
               onClick={() => window.open('https://t.me/', '_blank')}
             >
               Хочу на трекинг
@@ -409,8 +397,7 @@ const Index = () => {
             
             <Button 
               size="lg"
-              variant="outline"
-              className="border-2 border-white text-white hover:bg-white/10 px-12 py-7 text-xl font-bold"
+              className="bg-[#F5C83A] hover:bg-[#F5C83A]/90 text-black px-12 py-7 text-xl font-bold shadow-xl hover:shadow-2xl transition-all"
               onClick={() => window.open('https://t.me/', '_blank')}
             >
               Тест-драйв
@@ -418,17 +405,12 @@ const Index = () => {
             
             <Button 
               size="lg"
-              variant="outline"
-              className="border-2 border-white text-white hover:bg-white/10 px-12 py-7 text-xl font-bold"
+              className="bg-[#F5C83A] hover:bg-[#F5C83A]/90 text-black px-12 py-7 text-xl font-bold shadow-xl hover:shadow-2xl transition-all"
               onClick={() => window.open('https://t.me/', '_blank')}
             >
               Бронь места
             </Button>
           </div>
-
-          <p className="text-white/90 text-base pt-4">
-            Ответим на все вопросы и подберём подходящую программу
-          </p>
         </div>
       </section>
 
