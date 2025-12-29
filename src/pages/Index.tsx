@@ -456,9 +456,20 @@ const Index = () => {
                     вместо 69.900 ₽
                   </p>
                 </div>
-                <p className="text-xl md:text-2xl font-bold text-[#9A1E15] animate-pulse">
-                  ✨ Уникальное новогоднее предложение!
+                <p className="text-xl md:text-2xl font-bold text-[#9A1E15]">
+                  📅 Старт программы - 12 января
                 </p>
+              </div>
+              
+              <div className="flex justify-center pt-4">
+                <Button 
+                  size="lg" 
+                  className="bg-[#9A1E15] hover:bg-[#9A1E15]/90 text-white px-12 py-7 text-xl font-bold shadow-lg hover:shadow-xl transition-all animate-pulse flex items-center gap-2"
+                  onClick={() => window.open('https://t.me/m/Ax9hlnZWM2Zi', '_blank')}
+                >
+                  <Icon name="Hand" size={24} />
+                  Хочу на трекинг
+                </Button>
               </div>
             </CardContent>
           </Card>
