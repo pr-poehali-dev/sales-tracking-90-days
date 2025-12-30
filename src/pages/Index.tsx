@@ -243,9 +243,9 @@ const Index = () => {
             </h2>
           </div>
 
-          <Card className="border-none shadow-xl bg-white">
+          <Card className="border-4 border-[#9A1E15] shadow-2xl bg-gradient-to-br from-[#9A1E15]/10 to-white">
             <CardContent className="pt-8 space-y-6">
-              <p className="text-xl font-semibold text-foreground">
+              <p className="text-xl font-semibold text-[#9A1E15]">
                 Трекинг подходит тем, кто хочет:
               </p>
               <div className="space-y-4">
@@ -258,7 +258,7 @@ const Index = () => {
                   "собрать понятный план роста на 6–12 месяцев"
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-4 group">
-                    <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1 group-hover:scale-110 transition-transform">
+                    <div className="w-6 h-6 bg-[#9A1E15] rounded-full flex items-center justify-center flex-shrink-0 mt-1 group-hover:scale-110 transition-transform">
                       <Icon name="Check" className="text-white" size={16} />
                     </div>
                     <p className="text-lg text-foreground">{item}</p>
@@ -390,14 +390,14 @@ const Index = () => {
       <section className="py-8 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div className="order-2 md:order-1">
+            <div className="order-1 md:order-1">
               <img 
                 src="https://cdn.poehali.dev/files/telegram-cloud-photo-size-4-5874222278663408774-y 2.png" 
                 alt="Светлана Скорнякова"
                 className="w-full h-auto rounded-2xl shadow-xl"
               />
             </div>
-            <div className="order-1 md:order-2 space-y-6">
+            <div className="order-2 md:order-2 space-y-6">
               <h2 className="text-4xl md:text-5xl font-bold text-primary text-left">
                 Светлана Скорнякова
               </h2>
