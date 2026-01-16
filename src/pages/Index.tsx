@@ -486,7 +486,7 @@ const Index = () => {
                   <Button 
                     size="lg" 
                     className="w-full bg-[#9A1E15] hover:bg-[#9A1E15]/90 text-white py-6 text-lg font-bold shadow-lg hover:shadow-xl transition-all animate-pulse"
-                    onClick={() => window.open('https://t.me/m/Ax9hlnZWM2Zi', '_blank')}
+                    onClick={() => window.open('https://t.me/m/xinPDaoNNDYy', '_blank')}
                   >
                     Записаться на тест-драйв
                   </Button>
@@ -531,14 +531,14 @@ const Index = () => {
 
                 <div className="pt-4 space-y-4">
                   <p className="text-2xl font-bold text-[#9A1E15] text-center">
-                    59.900 ₽ сразу /<br />79.900 ₽ с тест-драйва
+                    59.900 ₽ сразу /<br />79.900 ₽ при переходе с тест-драйва
                   </p>
                   <Button 
                     size="lg" 
                     className="w-full bg-[#9A1E15] hover:bg-[#9A1E15]/90 text-white py-6 text-lg font-bold shadow-lg hover:shadow-xl transition-all animate-pulse"
-                    onClick={() => window.open('https://t.me/m/xinPDaoNNDYy', '_blank')}
+                    onClick={() => window.open('https://t.me/m/Ax9hlnZWM2Zi', '_blank')}
                   >
-                    Присоединиться к групповой программе
+                    Иду на трекинг
                   </Button>
                 </div>
               </CardContent>
