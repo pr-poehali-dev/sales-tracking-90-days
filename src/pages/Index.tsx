@@ -438,85 +438,158 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-8 px-4 bg-gradient-to-br from-[#9A1E15]/10 to-white">
-        <div className="max-w-4xl mx-auto space-y-8">
-          <Card className="border-4 border-[#9A1E15] shadow-2xl bg-gradient-to-br from-[#F5C83A]/20 to-white">
-            <CardContent className="pt-8 space-y-6 text-center">
-              <div className="space-y-4">
-                <p className="text-3xl md:text-4xl font-bold text-[#9A1E15]">
-                  🔥 Осталось 2 места
-                </p>
-                <div className="inline-block bg-white rounded-xl px-8 py-4 shadow-lg">
-                  <p className="text-2xl md:text-3xl font-bold text-[#9A1E15]">
-                    СТОИМОСТЬ 49.900 ₽
-                  </p>
-                  <p className="text-xl text-gray-500 line-through mt-2">
-                    вместо 69.900 ₽
+      <section className="py-16 px-4 bg-gradient-to-br from-gray-50 to-white">
+        <div className="max-w-7xl mx-auto space-y-12">
+          <div className="text-center space-y-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground">
+              Варианты работы на <span className="text-[#9A1E15]">Трекинге</span>
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <Card className="border-4 border-[#9A1E15] shadow-2xl bg-white hover:shadow-3xl transition-all">
+              <CardContent className="pt-8 space-y-6">
+                <div className="text-center space-y-3">
+                  <h3 className="text-2xl md:text-3xl font-bold text-[#9A1E15]">
+                    Тест-драйв<br />(21 день)
+                  </h3>
+                  <p className="text-base text-foreground leading-relaxed">
+                    Для тех, кто хочет понять свой вектор, получить первые результаты и протестировать формат перед входом в основную программу.
                   </p>
                 </div>
 
-              </div>
-              
-              <div className="flex justify-center pt-4">
-                <Button 
-                  size="lg" 
-                  className="bg-[#9A1E15] hover:bg-[#9A1E15]/90 text-white px-12 py-7 text-xl font-bold shadow-lg hover:shadow-xl transition-all animate-pulse flex items-center gap-2"
-                  onClick={() => window.open('https://t.me/m/Ax9hlnZWM2Zi', '_blank')}
-                >
-                  <Icon name="Hand" size={24} />
-                  Хочу на трекинг
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
+                <div className="space-y-4">
+                  <h4 className="font-bold text-lg text-[#9A1E15]">В тест-драйв входит:</h4>
+                  <ul className="space-y-3 text-sm text-foreground leading-relaxed">
+                    <li>• Индивидуальная стратегическая встреча</li>
+                    <li>• Персональный трек на 21 день</li>
+                    <li>• Три групповых встречи с разбором ваших задач</li>
+                    <li>• Доступ к базе знаний</li>
+                    <li>• Поддержка в общем чате</li>
+                  </ul>
 
-          <div className="text-center mb-6">
-            <div className="inline-block border-4 border-[#F5C83A] bg-white rounded-2xl px-8 py-3 shadow-xl">
-              <p className="text-2xl md:text-3xl font-bold text-[#9A1E15]">Специальное предложение!</p>
-            </div>
+                  <h4 className="font-bold text-lg text-[#9A1E15] pt-2">В тест-драйв НЕ входит:</h4>
+                  <p className="text-sm text-foreground leading-relaxed">
+                    работа с автоворонкой, ИИ-промпты, шаблоны, нейропомощники, глубокое формирование продуктовой линейки.
+                  </p>
+
+                  <h4 className="font-bold text-lg text-[#9A1E15] pt-2">Ваш результат за 21 день:</h4>
+                  <p className="text-sm text-foreground leading-relaxed">
+                    четкое позиционирование, готовый продукт, структура телеграм-канала, первые заявки и продажи.
+                  </p>
+                </div>
+
+                <div className="pt-4 space-y-4">
+                  <p className="text-2xl font-bold text-[#9A1E15] text-center">
+                    10.000 ₽
+                  </p>
+                  <Button 
+                    size="lg" 
+                    className="w-full bg-[#9A1E15] hover:bg-[#9A1E15]/90 text-white py-6 text-lg font-bold shadow-lg hover:shadow-xl transition-all"
+                    onClick={() => window.open('https://t.me/m/Ax9hlnZWM2Zi', '_blank')}
+                  >
+                    Записаться на тест-драйв
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-4 border-[#9A1E15] shadow-2xl bg-white hover:shadow-3xl transition-all">
+              <CardContent className="pt-8 space-y-6">
+                <div className="text-center space-y-3">
+                  <h3 className="text-2xl md:text-3xl font-bold text-[#9A1E15]">
+                    Система продаж<br />(90 дней)
+                  </h3>
+                  <p className="text-base text-foreground leading-relaxed">
+                    Основная программа, которая создаёт вашу личную систему продаж и выводит на стабильный доход 150–300 тысяч ежемесячно.
+                  </p>
+                </div>
+
+                <div className="space-y-4">
+                  <h4 className="font-bold text-lg text-[#9A1E15]">Что входит:</h4>
+                  <ul className="space-y-3 text-sm text-foreground leading-relaxed">
+                    <li>• Личная стратегическая сессия</li>
+                    <li>• Персональный трек на 90 дней</li>
+                    <li>• Четыре групповых созвона каждый месяц</li>
+                    <li>• Чат ежедневной поддержки</li>
+                    <li>• Полный доступ ко всем модулям</li>
+                    <li>• Библиотека ускорения: ИИ-промпты, контент-шаблоны, шаблоны воронок</li>
+                    <li>• Приглашённые эксперты</li>
+                    <li>• Разбор ваших материалов</li>
+                  </ul>
+
+                  <h4 className="font-bold text-lg text-[#9A1E15] pt-2">Преимущества:</h4>
+                  <p className="text-sm text-foreground leading-relaxed">
+                    персональный трек, контроль, быстрые корректировки, система которая работает долго.
+                  </p>
+
+                  <h4 className="font-bold text-lg text-[#9A1E15] pt-2">Ваш результат за 90 дней:</h4>
+                  <p className="text-sm text-foreground leading-relaxed">
+                    готовый продукт, воронка, упаковка, поток клиентов, стабильный доход 150–300 тысяч ежемесячно.
+                  </p>
+                </div>
+
+                <div className="pt-4 space-y-4">
+                  <p className="text-2xl font-bold text-[#9A1E15] text-center">
+                    59.900 ₽ сразу /<br />79.900 ₽ с тест-драйва
+                  </p>
+                  <Button 
+                    size="lg" 
+                    className="w-full bg-[#9A1E15] hover:bg-[#9A1E15]/90 text-white py-6 text-lg font-bold shadow-lg hover:shadow-xl transition-all"
+                    onClick={() => window.open('https://t.me/m/xinPDaoNNDYy', '_blank')}
+                  >
+                    Присоединиться к программе
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-4 border-[#9A1E15] shadow-2xl bg-white hover:shadow-3xl transition-all">
+              <CardContent className="pt-8 space-y-6">
+                <div className="text-center space-y-3">
+                  <h3 className="text-2xl md:text-3xl font-bold text-[#9A1E15]">
+                    VIP-сопровождение<br />(90 дней)
+                  </h3>
+                  <p className="text-base text-foreground leading-relaxed">
+                    Самый быстрый, глубокий и поддерживающий формат. Для тех, кому важны скорость, качество и индивидуальная работа.
+                  </p>
+                </div>
+
+                <div className="space-y-4">
+                  <h4 className="font-bold text-lg text-[#9A1E15]">Что входит в VIP:</h4>
+                  <ul className="space-y-3 text-sm text-foreground leading-relaxed">
+                    <li>• Всё из тарифа «Система продаж»</li>
+                    <li>• Еженедельные личные встречи</li>
+                    <li>• Полный разбор всех ваших материалов</li>
+                    <li>• Работа с уверенностью и внутренними ограничителями</li>
+                    <li>• Разработка продуктовой линейки от низкого до высокого чека</li>
+                    <li>• Персональная стратегия масштабирования до 500 тысяч</li>
+                    <li>• Индивидуальная поддержка в приоритетном режиме</li>
+                  </ul>
+
+                  <h4 className="font-bold text-lg text-[#9A1E15] pt-2">Преимущества VIP:</h4>
+                  <p className="text-sm text-foreground leading-relaxed">
+                    самый быстрый путь, минимум ошибок, поддержка «здесь и сейчас». Рост в 2–4 раза быстрее группы.
+                  </p>
+
+                  <h4 className="font-bold text-lg text-[#9A1E15] pt-2">Ваш результат за 90 дней:</h4>
+                  <p className="text-sm text-foreground leading-relaxed">
+                    дорогие продажи, сильная система, высокий чек, стабильный поток клиентов, быстрый предсказуемый рост.
+                  </p>
+                </div>
+
+                <div className="pt-4 space-y-4">
+                  <Button 
+                    size="lg" 
+                    className="w-full bg-[#9A1E15] hover:bg-[#9A1E15]/90 text-white py-6 text-lg font-bold shadow-lg hover:shadow-xl transition-all"
+                    onClick={() => window.open('https://t.me/m/Mw4nmAZiNjZi', '_blank')}
+                  >
+                    Получить персональные условия
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
           </div>
-          
-          <Card className="border-4 border-[#F5C83A] shadow-2xl bg-white">
-            <CardContent className="pt-8 space-y-6">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#9A1E15] text-center">
-                ТЕСТ-ДРАЙВ ТРЕКИНГА
-              </h2>
-              
-              <div className="space-y-4 text-lg text-foreground leading-relaxed">
-                <p>
-                  В течение 21 дня мы работаем с вашим проектом:
-                </p>
-                <ul className="space-y-2 ml-6">
-                  <li>— я помогаю разобрать текущую ситуацию в продажах,</li>
-                  <li>— определить ключевые действия,</li>
-                  <li>— убрать лишнее и сфокусироваться на шагах, которые быстрее всего приводят к заявкам и деньгам именно в вашем проекте.</li>
-                </ul>
-                
-                <p className="font-bold">
-                  Вы получаете полноценное сопровождение на 21 день, мою обратную связь и понимание, как выстраивается система продаж под ваши цели и текущие реалии.
-                </p>
-                
-                <p>
-                  Это позволяет без лишних рисков понять, подходит ли вам формат трекинга и готовы ли вы идти дальше в основную программу.
-                </p>
-                
-                <p className="text-2xl font-bold text-[#9A1E15] text-center pt-4">
-                  Стоимость ТЕСТ-ДРАЙВА 10.000 руб.
-                </p>
-              </div>
-              
-              <div className="flex justify-center pt-6">
-                <Button 
-                  size="lg" 
-                  className="bg-[#F5C83A] hover:bg-[#F5C83A]/90 text-black px-12 py-7 text-xl font-bold shadow-lg hover:shadow-xl transition-all animate-pulse flex items-center gap-2"
-                  onClick={() => window.open('https://t.me/m/xinPDaoNNDYy', '_blank')}
-                >
-                  <Icon name="Hand" size={24} />
-                  Хочу тест-драйв
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
         </div>
       </section>
 
