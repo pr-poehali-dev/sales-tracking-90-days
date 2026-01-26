@@ -531,7 +531,7 @@ const Index = () => {
 
                 <div className="pt-4 space-y-4">
                   <p className="text-2xl font-bold text-[#9A1E15] text-center">
-                    59.900 ₽ сразу /<br />79.900 ₽ при переходе с тест-драйва
+                    От 49.900 ₽
                   </p>
                   <Button 
                     size="lg" 
