@@ -97,7 +97,7 @@ const Index = () => {
                 <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
                   <Icon name="Calendar" className="text-primary" size={28} />
                 </div>
-                <h3 className="text-xl font-bold text-foreground">90 дней работы</h3>
+                <h3 className="text-xl font-bold text-foreground">365 дней сопровождения</h3>
               </CardContent>
             </Card>
             
@@ -176,7 +176,7 @@ const Index = () => {
                 </div>
                 <h3 className="text-2xl font-bold">Продажи через блог и базу</h3>
                 <p className="text-muted-foreground">
-                  Настраиваем поток заявок из Telegram: через контент, диагностики, переписки и автоворонки.
+                  Настраиваем поток заявок из Telegram и MAX: через контент, диагностики, переписки и автоворонки.
                 </p>
               </CardContent>
             </Card>
@@ -250,7 +250,7 @@ const Index = () => {
                   "понять, что именно делать дальше, а не «пробовать всё подряд»",
                   "автоматизировать процессы и освободить время",
                   "внедрить автоворонки и рабочие связки по трафику",
-                  "собрать понятный план роста на 6–12 месяцев"
+                  "собрать понятный план роста на 12 месяцев и быть в курсе всех изменений на рынке"
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-4 group">
                     <div className="w-6 h-6 bg-[#9A1E15] rounded-full flex items-center justify-center flex-shrink-0 mt-1 group-hover:scale-110 transition-transform">
