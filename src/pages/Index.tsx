@@ -64,9 +64,9 @@ const Index = () => {
           </div>
           <div className="space-y-6">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
-              <span className="text-[#9A1E15]">90-дневный трекинг продаж</span><br />
-              для экспертов и предпринимателей
+              Годовое сопровождение для экспертов и предпринимателей
             </h1>
+            <p className="text-2xl md:text-3xl font-bold text-[#9A1E15]">Трекинг</p>
             <p className="text-xl md:text-2xl text-black max-w-4xl mx-auto leading-relaxed font-medium">
               Совместная работа над вашим проектом, где мы пересобираем или запускаем продажи под реалии 2026 года 
               и доводим 1-2 целевых действия до заявок и денег.
