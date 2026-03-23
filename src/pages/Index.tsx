@@ -448,53 +448,6 @@ const Index = () => {
               <CardContent className="pt-8 space-y-6">
                 <div className="text-center space-y-3">
                   <h3 className="text-2xl md:text-3xl font-bold text-[#9A1E15]">
-                    Тест-драйв<br />(1 месяц)
-                  </h3>
-                  <p className="text-base text-foreground leading-relaxed">
-                    Для тех, кто хочет понять свой вектор, получить первые результаты и протестировать формат перед входом в основную программу.
-                  </p>
-                </div>
-
-                <div className="space-y-4">
-                  <h4 className="font-bold text-lg text-[#9A1E15]">В тест-драйв входит:</h4>
-                  <ul className="space-y-3 text-sm text-foreground leading-relaxed">
-                    <li><span className="font-bold">• Персональный трек на 30 дней</span> — конкретные шаги, которые избавляют от хаоса и дают первые результаты: понимание клиента, проверка гипотез продукта, первые отклики и продажи.</li>
-                    <li><span className="font-bold">• 19 способов собрать заявки без бюджета.</span> Их можно внедрить буквально сразу и получить продажи уже завтра.</li>
-                    <li><span className="font-bold">• Четыре групповых встречи с разбором ваших задач.</span> Разбираем позиционирование, упаковку продукта, контент для канала, офферы.</li>
-                    <li><span className="font-bold">• Доступ к базе знаний:</span> основы позиционирования, структура продукта, упаковка канала, продажи, базовая воронка, бесплатные способы привлечения клиентов.</li>
-                    <li><span className="font-bold">• Поддержка в общем чате:</span> ответы на вопросы, групповые разборы, корректировка действий.</li>
-                  </ul>
-
-                  <h4 className="font-bold text-lg text-[#9A1E15] pt-2">В тест-драйв НЕ входит:</h4>
-                  <p className="text-sm text-foreground leading-relaxed">
-                    работа с автоворонкой, ИИ-промпты, шаблоны, нейропомощники, глубокое формирование продуктовой линейки, анализ переписок и продающих консультаций, работа с холодным трафиком и привлечение новой аудитории.
-                  </p>
-
-                  <h4 className="font-bold text-lg text-[#9A1E15] pt-2">Ваш результат за 1 месяц:</h4>
-                  <p className="text-sm text-foreground leading-relaxed">
-                    четкое позиционирование, понимание идеального клиента, готовый продукт под запрос ЦА, структура телеграм-канала, первые отклики от аудитории, первые заявки, продажи и уверенность, что вы двигаетесь правильно.
-                  </p>
-                </div>
-
-                <div className="pt-4 space-y-4">
-                  <p className="text-2xl font-bold text-[#9A1E15] text-center">
-                    10.000 ₽
-                  </p>
-                  <Button 
-                    size="lg" 
-                    className="w-full bg-[#9A1E15] hover:bg-[#9A1E15]/90 text-white py-6 text-lg font-bold shadow-lg hover:shadow-xl transition-all animate-pulse"
-                    onClick={() => window.open('https://t.me/m/xinPDaoNNDYy', '_blank')}
-                  >
-                    Записаться на тест-драйв
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="border-4 border-[#9A1E15] shadow-2xl bg-white hover:shadow-3xl transition-all">
-              <CardContent className="pt-8 space-y-6">
-                <div className="text-center space-y-3">
-                  <h3 className="text-2xl md:text-3xl font-bold text-[#9A1E15]">
                     Групповое сопровождение
                   </h3>
                   <p className="text-base text-foreground leading-relaxed">
@@ -582,6 +535,53 @@ const Index = () => {
                     onClick={() => window.open('https://t.me/m/Mw4nmAZiNjZi', '_blank')}
                   >
                     Получить персональные условия
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-4 border-[#9A1E15] shadow-2xl bg-white hover:shadow-3xl transition-all">
+              <CardContent className="pt-8 space-y-6">
+                <div className="text-center space-y-3">
+                  <h3 className="text-2xl md:text-3xl font-bold text-[#9A1E15]">
+                    Тест-драйв<br />(1 месяц)
+                  </h3>
+                  <p className="text-base text-foreground leading-relaxed">
+                    Для тех, кто хочет понять свой вектор, получить первые результаты и протестировать формат перед входом в основную программу.
+                  </p>
+                </div>
+
+                <div className="space-y-4">
+                  <h4 className="font-bold text-lg text-[#9A1E15]">В тест-драйв входит:</h4>
+                  <ul className="space-y-3 text-sm text-foreground leading-relaxed">
+                    <li><span className="font-bold">• Персональный трек на 30 дней</span> — конкретные шаги, которые избавляют от хаоса и дают первые результаты: понимание клиента, проверка гипотез продукта, первые отклики и продажи.</li>
+                    <li><span className="font-bold">• 19 способов собрать заявки без бюджета.</span> Их можно внедрить буквально сразу и получить продажи уже завтра.</li>
+                    <li><span className="font-bold">• Четыре групповых встречи с разбором ваших задач.</span> Разбираем позиционирование, упаковку продукта, контент для канала, офферы.</li>
+                    <li><span className="font-bold">• Доступ к базе знаний:</span> основы позиционирования, структура продукта, упаковка канала, продажи, базовая воронка, бесплатные способы привлечения клиентов.</li>
+                    <li><span className="font-bold">• Поддержка в общем чате:</span> ответы на вопросы, групповые разборы, корректировка действий.</li>
+                  </ul>
+
+                  <h4 className="font-bold text-lg text-[#9A1E15] pt-2">В тест-драйв НЕ входит:</h4>
+                  <p className="text-sm text-foreground leading-relaxed">
+                    работа с автоворонкой, ИИ-промпты, шаблоны, нейропомощники, глубокое формирование продуктовой линейки, анализ переписок и продающих консультаций, работа с холодным трафиком и привлечение новой аудитории.
+                  </p>
+
+                  <h4 className="font-bold text-lg text-[#9A1E15] pt-2">Ваш результат за 1 месяц:</h4>
+                  <p className="text-sm text-foreground leading-relaxed">
+                    четкое позиционирование, понимание идеального клиента, готовый продукт под запрос ЦА, структура телеграм-канала, первые отклики от аудитории, первые заявки, продажи и уверенность, что вы двигаетесь правильно.
+                  </p>
+                </div>
+
+                <div className="pt-4 space-y-4">
+                  <p className="text-2xl font-bold text-[#9A1E15] text-center">
+                    10.000 ₽
+                  </p>
+                  <Button 
+                    size="lg" 
+                    className="w-full bg-[#9A1E15] hover:bg-[#9A1E15]/90 text-white py-6 text-lg font-bold shadow-lg hover:shadow-xl transition-all animate-pulse"
+                    onClick={() => window.open('https://t.me/m/xinPDaoNNDYy', '_blank')}
+                  >
+                    Записаться на тест-драйв
                   </Button>
                 </div>
               </CardContent>
