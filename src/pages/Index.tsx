@@ -61,7 +61,9 @@ const Index = () => {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
               Годовое сопровождение для экспертов и предпринимателей
             </h1>
-            <p className="text-4xl md:text-6xl lg:text-7xl font-bold text-[#9A1E15] border-4 border-[#9A1E15] rounded-2xl inline-block px-6 py-2 shadow-lg">Трекинг</p>
+            <div className="flex justify-center">
+              <p className="text-4xl md:text-6xl lg:text-7xl font-bold text-[#9A1E15] border-4 border-[#9A1E15] rounded-2xl inline-block px-6 py-2 shadow-lg">Трекинг</p>
+            </div>
             <p className="text-xl md:text-2xl text-black max-w-4xl mx-auto leading-relaxed font-medium">
               Совместная работа над вашим проектом, где мы пересобираем или запускаем продажи под реалии 2026 года 
               и доводим 1-2 целевых действия до заявок и денег.
