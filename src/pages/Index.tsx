@@ -275,11 +275,11 @@ const Index = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { icon: "Video", text: "12 глубоких разборов со мной" },
+              { icon: "Video", text: "Групповые разборы каждую неделю" },
               { icon: "Route", text: "индивидуальный трек под ваш проект" },
               { icon: "MessageCircle", text: "рабочий чат с поддержкой" },
               { icon: "Database", text: "база знаний с инструментами и шаблонами" },
-              { icon: "Users", text: "4 встречи с профильными экспертами (юрист, бухгалтер, продажи в переписке, нейросети)" },
+              { icon: "Users", text: "встречи с профильными экспертами (юрист, бухгалтер, продажи в переписке, нейросети)" },
               { icon: "Briefcase", text: "список проверенных подрядчиков" }
             ].map((item, index) => (
               <Card key={index} className="border-2 border-border hover:border-primary transition-all shadow-md hover:shadow-lg">
@@ -330,7 +330,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto space-y-8">
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-              Что вы получаете за <span className="text-primary">90 дней</span>
+              Что вы получаете:
             </h2>
           </div>
 
