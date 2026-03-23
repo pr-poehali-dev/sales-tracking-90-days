@@ -57,16 +57,11 @@ const Index = () => {
       <section className="relative min-h-screen flex items-center justify-center px-4 py-8 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-secondary/5 to-transparent"></div>
         <div className="relative max-w-6xl mx-auto text-center space-y-6 animate-fade-in">
-          <div className="mb-4">
-            <div className="inline-block border-4 border-[#F5C83A] bg-gradient-to-r from-[#F5C83A]/20 to-[#F5C83A]/30 rounded-2xl px-6 py-2 shadow-lg animate-pulse">
-              <p className="text-xl md:text-2xl font-bold text-[#9A1E15]">🎁 Эксклюзивное предложение!</p>
-            </div>
-          </div>
           <div className="space-y-6">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
               Годовое сопровождение для экспертов и предпринимателей
             </h1>
-            <p className="text-4xl md:text-6xl lg:text-7xl font-bold text-[#9A1E15] border-4 border-[#9A1E15] inline-block px-6 py-2">Трекинг</p>
+            <p className="text-4xl md:text-6xl lg:text-7xl font-bold text-[#9A1E15] border-4 border-[#9A1E15] rounded-2xl inline-block px-6 py-2 shadow-lg">Трекинг</p>
             <p className="text-xl md:text-2xl text-black max-w-4xl mx-auto leading-relaxed font-medium">
               Совместная работа над вашим проектом, где мы пересобираем или запускаем продажи под реалии 2026 года 
               и доводим 1-2 целевых действия до заявок и денег.
